@@ -1,0 +1,7 @@
+{
+	"pack": {
+		"description": "A custom dimension template datapack.",
+		"min_format": [94, 1],
+        "max_format": [999, 999]
+	}
+}

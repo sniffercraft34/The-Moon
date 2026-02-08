@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:end_stone"
+    },
+    "title": "One Small Step",
+    "description": "Visit the moon by going to Y=≥330",
+    "background": "minecraft:environment/end_sky",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "trigger": {
+      "trigger": "changed_dimension",
+      "conditions": {
+        "to": "the_moon:the_moon"
+      }
+    }
+  }
+}

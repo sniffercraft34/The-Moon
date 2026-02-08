@@ -1,0 +1,1 @@
+execute as @s if predicate the_moon:in_void_moon if entity @s[nbt={Dimension:"the_moon:the_moon"}] run function the_moon:tp_to_overworld

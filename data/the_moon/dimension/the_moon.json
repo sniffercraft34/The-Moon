@@ -1,0 +1,39 @@
+{
+  "type": "the_moon:custom_dimension_type",
+  "generator": {
+    "settings": "the_moon:the_moon_settings",
+    "type": "minecraft:noise",
+    "biome_source": {
+      "biomes": [
+        {
+          "biome": "the_moon:moon",
+          "parameters": {
+            "continentalness": [
+              -0.19,
+              -0.11
+            ],
+            "depth": 0.0,
+            "erosion": [
+              -1.0,
+              -0.375
+            ],
+            "humidity": [
+              -1.0,
+              -0.35
+            ],
+            "offset": 0.0,
+            "temperature": [
+              -0.45,
+              -0.15
+            ],
+            "weirdness": [
+              -0.9333,
+              -0.7666
+            ]
+          }
+        }
+      ],
+      "type": "minecraft:multi_noise"
+    }
+  }
+}
